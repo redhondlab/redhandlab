@@ -1,0 +1,188 @@
+.rihoheader{position: fixed;z-index: 9940;top:0px;width: 100%;height: 60px;}
+.riheaderinner{height: 60px;}
+.rihodside{
+    position: fixed;
+    z-index: 9940;
+    float: left;
+    top: var(--rinavbar-height);
+    background-color: #fff;
+    min-height: 340px;
+    height: calc(100vh - var(--rinavbar-height));
+    font-size: 16px;
+    width: var(--risidebar-width);
+}
+.rihopaper{margin-top: 68px;
+    padding-left: var(--risidebar-width);
+
+}
+.rihopager{overflow: hidden;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 890px;
+    border-radius: 6px;
+    background: #fff;
+    border: #d4d6d8 1px solid;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.09);
+    margin-bottom: 20px;
+    min-height: 500px;}
+.g-redetailinfo {
+        border-bottom: solid 1px #d4d6d8;
+    }
+.g-redetainfo {
+        overflow: hidden;
+        padding: 30px 20px;
+    }
+.g-redetainfotitle {
+        overflow: hidden;
+    }
+.g-redetainfotit {
+        float: left;
+        font-size: 21px;
+    }
+.g-redetainfofollowact {
+        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 68px;
+        padding: 10px 0;
+        border: 1px solid #0a84dc;
+        border-radius: 2px;
+        font-size: 14px;
+        color: #2271c2;
+        cursor: pointer;
+    }
+.g-redetainfobadge {
+        overflow: hidden;
+        font-size: 14px;
+        color: var(--color-black-66);
+        padding-bottom: 8px;
+    }
+.g-redetainfodigest {
+        overflow: hidden;
+        font-size: 14px;
+        color: var(--color-black-66);
+        position: relative;
+        line-height: 1.64;
+        text-align: justify;
+    }
+.rihodepointabs{position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-right: 24px;}
+.rihodepointabside{
+    display: flex;
+    align-items: center;
+    max-width: var(--content-max-width);
+    margin: auto;
+    }
+
+.rihodepointabsitem {
+        display: flex;
+        align-items: center;
+        height: 32px;
+        line-height: 32px;
+        font-size: 14px;
+        color: rgba(0, 0, 0, .66);
+        cursor: pointer;
+        background-color: #f4f6f7;
+        border-radius: 4px;
+        padding: 0 12px;
+        margin-right: 16px;
+    }
+.rihodepointabside_active {
+        color: #fff;
+        font-weight: 600;
+        background-color: #4b6f94;
+    }
+.rihodepointobox{overflow: hidden;margin-top: 30px;}
+.rihodepointro{overflow: hidden;margin-bottom: 30px;}
+.rihodepointrotabs{margin-bottom: 20px;}
+.rihodepointrotabstit {
+        font-size: 16px;
+        font-weight: 500;
+    }
+.rihodepointrodisgest{font-size: 16px;
+    line-height: 1.7;
+    color: #213547;}
+.rihodepointaible {
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .05);
+        background-color: #fff;
+        border-radius: 6px;
+        transition: all .35ms ease;
+        box-shadow: 0 4px 0 0 #eeeff0;
+        border: .5px solid #d8d8d8;
+        margin-bottom: 6px;
+    }
+.rihodepointaiblein{overflow: hidden;padding: 20px;}
+.rihodepointaipic{float: left;width: 310px;}
+.rihodepointaipicin{overflow: hidden;width: 300px;border-radius: 9px;border: solid 1px #d8d8d8;height: 120px;}
+.rihodepointaipicvtext{text-align: center;line-height:100px;font-size: 40px;font-weight: 900;}
+.rihodepointaintro{float: left;overflow: hidden;margin-left: 20px;}
+.rihodepointaintit{font-size: 24px;font-weight: 900;}
+.rihodepointainsubtit{font-size: 20px;font-weight: 900;color: #404f5c;}
+.rihodepointaindisgest{font-size: 16px;width: 468px;margin-top: 16px;
+    line-height: 1.7;
+    color: #213547;}
+.rihodepointainlinked{
+    padding-top: 16px;
+    line-height: 1.7;
+    color: #b33503;
+}
+.rihodsidemaintabs{overflow: hidden;border-bottom: solid 1px #d8d8d8;}
+.rihodsidemaintabsin{float: left;
+    padding-left: 20px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    gap: 0.3rem;
+    justify-content: space-between;
+    
+}
+.rihodsideptree{overflow-y:auto ;height: calc(100vh - 160px);}
+.rihodsideitem{margin: 20px;
+    border: solid 1px #d8d8d8;
+    border-radius: 6px;
+    padding: 20px;
+    color: rgb(65, 63, 63);
+}
+.rihodsideitem a{text-decoration: none;}
+
+.rihodsideitemtit{
+    color: #000;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.rihodsideitembadge{
+    font-size: 14px;
+    line-height: 1.7;
+    color: #404f5c;
+}
+.rihodsideitem:hover{border: solid 1px #213547;}
+.rihodepointabsitem-children{display: flex;
+    align-items: center;
+    max-width: var(--content-max-width);
+    margin: auto;}
+.rihodepointabsitem-children ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.rihodepointabsitem-children li {
+    list-style-type: none;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.rihodsideitem_active{
+    border-color:#4b6f94;
+    background-color: #f4f6f7;
+}
+
